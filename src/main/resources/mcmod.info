@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "reportautocomplete",
+    "name": "ReportAutoComplete",
+    "description": "Adds all users that typed in chat to the autocomplete options when using the report command on Hypixel",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "Lulonaut"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
