@@ -6,7 +6,7 @@ plugins {
 
 version = "1.0"
 group = "de.lulonaut"
-archivesBaseName = "Autojoin"
+archivesBaseName = "reportautocomplete"
 
 sourceCompatibility = targetCompatibility = 1.8
 compileJava.options.encoding = 'UTF-8'

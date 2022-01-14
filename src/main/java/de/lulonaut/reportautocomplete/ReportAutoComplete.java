@@ -33,7 +33,7 @@ public class ReportAutoComplete {
 
         if (message.startsWith("[")) { //remove rank part from the String
             message = message.substring(indexEndBracket + 1).trim();
-        } else if (!event.message.getUnformattedText().startsWith("§7")) {
+        } else if (!event.message.getUnformattedText().startsWith("§7")) { //message not from a ranked player and not from someone without a rank -> no player message
             return;
         }
         indexColon = message.indexOf(':');
